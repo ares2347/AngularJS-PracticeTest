@@ -1,0 +1,39 @@
+
+#contact {
+  border: 1px solid lightgray;
+  padding: 0;
+}
+#contact ul{
+  padding: 0;
+}
+#contact ul li{
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 20px;
+}
+#contact ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+#contact ul li:hover{
+background-color: cyan;
+  color: beige;
+}
+#detail{
+  text-align: center;
+}
+#detail table{
+  border: solid 1px lightgray;
+}
+#detail th, #detail td{
+  padding: 5px 40px 5px 10px;
+  font-size: 20px;
+  border: solid 1px lightgray;
+
+}
+#detail td{
+  padding-right: 400px ;
+}
+

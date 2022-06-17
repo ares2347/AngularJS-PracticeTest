@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<div>
+<div class="col-md-3" id="contact">
+  <ul *ngFor="let s of contacts">
+    <li><a (click)="changeContact(s.name)">{{s.name}}</a></li>
+  </ul>
+</div>
+<div class="col-md-9" id="detail">
+  <h1>{{details[0].name}}</h1>
+  <table>
+    <tr>
+      <th>Title</th>
+      <td>{{details[0].title}}</td>
+    </tr>
+    <tr>
+      <th>Hire Date</th>
+      <td>{{details[0].hireDate}}</td>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <td>{{details[0].address}}</td>
+    </tr>
+    <tr>
+      <th>City</th>
+      <td>{{details[0].city}}</td>
+    </tr>
+    <tr>
+      <th>Phone</th>
+      <td>{{details[0].phone}}</td>
+    </tr>
+  </table>
+</div>
+</div>

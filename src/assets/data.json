@@ -1,0 +1,80 @@
+{
+  "status": 200,
+  "message": "success",
+  "data": {
+    "contacts": [
+      {
+        "imageUrl": "",
+        "name": "Margaret"
+      },
+      {
+        "imageUrl": "",
+        "name": "Laura"
+      },
+      {
+        "imageUrl": "",
+        "name": "Robert"
+      },
+      {
+        "imageUrl": "",
+        "name": "Albert"
+      },
+      {
+        "imageUrl": "",
+        "name": "Michale"
+      }
+    ],
+    "details": [
+      {
+        "imageUrl": " ",
+        "name": "Margaret Abc",
+        "title": "Director",
+        "hireDate": "10/5/1996",
+        "address": "1 Houndstooth Rd.",
+        "city": "London",
+        "phone": "(71) 111-2222",
+        "child": "Margaret"
+      },
+      {
+        "imageUrl": " ",
+        "name": "Laura Abc",
+        "title": "Manager",
+        "hireDate": "12/5/1994",
+        "address": "2 Houndstooth Rd.",
+        "city": "NewYork",
+        "phone": "(71) 111-3333",
+        "child": "Laura"
+      },
+      {
+        "imageUrl": " ",
+        "name": "Robert Abc",
+        "title": "Accountant",
+        "hireDate": "10/5/1992",
+        "address": "3 Houndstooth Rd.",
+        "city": "Ha Noi",
+        "phone": "(05) 222-4444",
+        "child": "Robert"
+      },
+      {
+        "imageUrl": " ",
+        "name": "Albert Abc",
+        "title": "Engineer",
+        "hireDate": "1/7/1990",
+        "address": "10 Houndstooth Rd.",
+        "city": "California",
+        "phone": "(71) 465-2222",
+        "child": "Albert"
+      },
+      {
+        "imageUrl": " ",
+        "name": "Michale Suyama",
+        "title": "Sales Representative",
+        "hireDate": "10/5/1996",
+        "address": "7 Houndstooth Rd.",
+        "city": "London",
+        "phone": "(71) 555-4444",
+        "child": "Michale"
+      }
+    ]
+  }
+}
